@@ -1,0 +1,10 @@
+/** No CSS for this example */
+mat-chip.error {
+  color:white;
+  background-color: red !important;
+}
+
+mat-chip.pass {
+  color:white;
+  background-color: green !important;
+}
