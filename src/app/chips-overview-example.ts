@@ -8,7 +8,9 @@ import {Component} from '@angular/core';
   templateUrl: 'chips-overview-example.html',
   styleUrls: ['chips-overview-example.css'],
 })
-export class ChipsOverviewExample {}
+export class ChipsOverviewExample {
+  chipArr : Array<string> = ["Apple", "Banana", "Orange"];
+}
 
 
 /**  Copyright 2019 Google LLC. All Rights Reserved.
